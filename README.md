@@ -9,3 +9,15 @@ This code is purely for research and statistics, absolutley NOT for application 
 
 Download The Project From Here:
 https://drive.google.com/file/d/1LuTYYV4Y7vQgNNA_fyncsqMh_uo0MJS4/view?usp=sharing
+
+#How to Use
+
+Use python train.py to train the model
+
+Use python run.py to run the model on a video feed
+
+Use python run_realtime.py to run the model on live feed of webcam 
+
+Use python run_dataset.py to run the model on the dataset
+
+To visualize training using Tensorboard use tensorboard --logdir=./logs, then open http://0.0.0.0:6006/ into your web browser.
